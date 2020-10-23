@@ -9,9 +9,9 @@ import {
   Text
 } from '@react-pakistan/react-commons-collection';
 
-export const ReactCommons = withTheme(({ theme }) => (
-  <Section backgroundColor={theme.colors.cherryRed}>
-    <H1>React Commons Collection</H1>
+export const ReactUI = withTheme(({ theme }) => (
+  <Section backgroundColor={theme.colors.skyBlue}>
+    <H1>React UI Collection</H1>
     <Spacer padding={theme.spacing.large} />
     <Text textAlign='center'>
       Button component can be extended into
@@ -20,12 +20,12 @@ export const ReactCommons = withTheme(({ theme }) => (
     <Spacer padding={theme.spacing.large} />
     <Grid>
       <HeadingWrapper>
-        <H2>App1 Button</H2>
+        <H2>EcommerceApp</H2>
         <Spacer padding={theme.spacing.large} />
         <App1Button>App1 Button</App1Button>
       </HeadingWrapper>
       <HeadingWrapper>
-        <H2>App2 Button</H2>
+        <H2>PortfolioApp</H2>
         <Spacer padding={theme.spacing.large} />
         <App2Button>App2 Button</App2Button>
       </HeadingWrapper>

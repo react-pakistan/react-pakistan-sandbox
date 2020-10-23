@@ -22,7 +22,7 @@ export const ReactIcons = withTheme(({ iconType, theme }) => {
   };
 
   return (
-    <Section backgroundColor={theme.colors.skyBlue}>
+    <Section backgroundColor={theme.colors.cherryRed}>
       <H1>React Icons Collection</H1>
       <Spacer padding={theme.spacing.large} />
       <Text textAlign='center'>{`All icons under category ${iconType}`}.</Text>

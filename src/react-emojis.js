@@ -22,10 +22,10 @@ export const ReactEmojis = withTheme(({ emojiType, theme }) => {
   };
 
   return (
-    <Section backgroundColor={theme.colors.cherryRed}>
+    <Section backgroundColor={theme.colors.skyBlue}>
       <H1>React Emojis Collection</H1>
       <Spacer padding={theme.spacing.large} />
-      <Text textAlign='center'>'{`'All emojis under category ${emojiType}`}.</Text>
+      <Text textAlign='center'>{`All emojis under category ${emojiType}`}.</Text>
       <Spacer padding={theme.spacing.default} />
       <Grid
         gridColumn='repeat(6, 1fr)'
